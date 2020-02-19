@@ -14,11 +14,10 @@ allprojects {
         if (isRoot) return // avoid error "Cannot change dependencies of configuration ':classpath' after it has been resolved."
 
         repositories {
-            maven { url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
             maven { url "https://kotlin.bintray.com/kotlinx" }
+            maven { url "https://kotlin.bintray.com/kotlinx.html" }
             maven { url 'https://maven.google.com' }
             maven { url "https://plugins.gradle.org/m2/" }
-            maven { url "http://dl.bintray.com/kotlin/kotlin-dev" }
             maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
             maven { url 'https://maven.fabric.io/public' }
             maven { url "https://dl.bintray.com/jetbrains/kotlin-native-dependencies" }
@@ -42,11 +41,10 @@ allprojects {
 
     }
     repositories {
-        maven { url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
         maven { url "https://kotlin.bintray.com/kotlinx" }
+        maven { url "https://kotlin.bintray.com/kotlinx.html" }
         maven { url 'https://maven.google.com' }
         maven { url 'https://jitpack.io' }
-        maven { url "http://dl.bintray.com/kotlin/kotlin-dev" }
         maven { url "http://dl.bintray.com/kotlinx/kotlinx" }
         maven { url "http://dl.bintray.com/hypnosphi/kotlin-wrappers" }
         maven { url "http://dl.bintray.com/hypnosphi/kotlin-js-wrappers" }
